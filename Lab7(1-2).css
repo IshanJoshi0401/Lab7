@@ -1,0 +1,68 @@
+*{
+    padding: 0px;
+    margin: 10px;
+}
+header{
+    margin-bottom: 30px;
+}
+header img{
+    float: left; 
+    width: 90px;
+    height: 80px;
+ }
+ header h1{
+     color: orange;
+     font-size: 40px;
+     text-shadow: 2px 1px black;
+ }
+ #welcome_paragraph h3::first-letter{
+     font-size: 40px;
+ }
+ #links ul li a{
+     color: rgb(236, 199, 77);
+     font-weight: bolder;
+ }
+ a { 
+    font-weight: bold; 
+}
+a:link { 
+    color: #931420; 
+}
+a:visited { 
+    color: #f2972e; 
+}
+a:hover, a:focus { 
+    color: blue; 
+}
+.link1{
+    color: rgb(163, 163, 163);
+}
+.link2{
+    color: maroon;
+}
+aside{
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+}
+aside {
+    width: 350px;
+    float: right;
+    padding: 20px;
+    background-color: #ffebc6;
+    margin-right: 20px; 
+}
+aside h2 {
+    font-size: 130%;
+    padding-bottom: .5em;
+}
+aside h3 {
+    font-size: 100%;
+    color: #931420;
+    padding-bottom: .5em; 
+}
+aside p { 
+    margin-bottom: .5em;
+}
+ #footer{
+     text-align: center;
+ }
